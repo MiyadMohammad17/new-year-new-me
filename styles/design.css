@@ -1,56 +1,95 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    overflow: auto;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  overflow: auto;
 }
- header{ 
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+/* header starts */
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-.head{
-
-    background-image: url(../new-year-new-me-main/images/banner/banner3.png);
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-    text-align: right;
-    padding-left: 50%;
-    padding-right: 5%;
-
+.head {
+  background-image: url(../new-year-new-me-main/images/banner/banner3.png);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: right;
+  padding-left: 50%;
+  padding-right: 5%;
 }
-.header-caption{
-    text-align: right;
-    margin-top: 250px;
-    color: rgb(252, 249, 249);
-    font-weight: 700;
-    font-size: 65px;
-    line-height: 76px;
-    padding-bottom: 15px;
-
+.header-caption {
+  text-align: right;
+  margin-top: 250px;
+  color: #f7f6f4;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  padding-bottom: 15px;
 }
-.header-description{
-    font-weight: 400;
-    font-size: 22px;
-    color: #dce1e2;
-    padding-bottom: 20px;
-    padding-left: 20%;
-
+.header-description {
+  font-weight: 400;
+  font-size: 22px;
+  color: #dce1e2;
+  padding-bottom: 20px;
+  padding-left: 20%;
 }
-.button-pri{
-    color: rgb(6, 141, 175);
-    background-color: rgb(250, 253, 253);
-    font-size: 22px;
-    font-weight: 500;
-    padding: 15px 20px;
-    border: 0;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: #dce1e2 3px 3px 8px 0;
+.button-pri {
+  color: rgb(6, 141, 175);
+  background-color: #f7f6f4;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 15px 20px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: #dce1e2 3px 3px 5px 0;
+}
+/* header ends */
 
+/* failure section starts */
+main {
+  padding-top: 100px;
+  width: 80%;
+  margin: 0 200px 10px;
+}
+.failure-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fail-img {
+  width: 100%;
+  padding-left: 40px;
+  margin-right: 0px;
+}
+.fail-cont {
+  width: 80%;
+}
+.text-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  padding: 0 auto;
+  padding-bottom: 20px;
+}
+.text-desc {
+  font-weight: 400;
+  font-size: 22px;
+  text-align: right;
+  padding-bottom: 10px;
+  text-align: left;
+}
+ul {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  text-align:left;
 }
