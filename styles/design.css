@@ -14,8 +14,8 @@ header {
 }
 .head {
   background-image: url(../new-year-new-me-main/images/banner/banner3.png);
+  width: 100vw;
   height: 100vh;
-  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -43,12 +43,11 @@ header {
   color: rgb(6, 141, 175);
   background-color: #f7f6f4;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 15px 20px;
   border: 0;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: #dce1e2 3px 3px 5px 0;
 }
 /* header ends */
 
@@ -56,7 +55,7 @@ header {
 main {
   padding-top: 100px;
   width: 80%;
-  margin: 0 200px 10px;
+  margin: 0 200px 1px;
 }
 .failure-container {
   display: flex;
@@ -66,7 +65,6 @@ main {
 .fail-img {
   width: 100%;
   padding-left: 40px;
-  margin-right: 0px;
 }
 .fail-cont {
   width: 80%;
@@ -75,7 +73,6 @@ main {
   font-weight: 700;
   font-size: 40px;
   text-align: left;
-  padding: 0 auto;
   padding-bottom: 20px;
 }
 .text-desc {
@@ -84,12 +81,72 @@ main {
   text-align: right;
   padding-bottom: 10px;
   text-align: left;
+  color: #66666a;
 }
 ul {
-    font-style: italic;
-    font-weight: 200;
-    font-size: 20px;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 20px;
+  color: #464647;
   padding-bottom: 20px;
   padding-left: 40px;
-  text-align:left;
+  text-align: left;
+}
+/* failures ends */
+
+/* plan section starts */
+.plan {
+  margin-top: 150px;
+}
+.plan-title {
+  font-weight: 700;
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.plan-list {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.plan-caption {
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.plan-desc {
+  font-size: 22px;
+  font-weight: 400;
+  color: #697375;
+}
+/* plans ends */
+
+/* contact section starts */
+.contact {
+  margin-top: 100px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../new-year-new-me-main/images/watch.png);
+  height: 300px;
+  border-radius: 15px;
+}
+.content {
+  font-weight: 700;
+  font-size: 30px;
+  position: absolute;
+  color: white;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.cantent button {
+  margin-top: 25px;
+}
+.bg-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
