@@ -47,7 +47,6 @@ header {
   padding: 15px 20px;
   border: 0;
   border-radius: 5px;
-  cursor: pointer;
 }
 /* header ends */
 main {
@@ -281,6 +280,5 @@ ul {
   border: 0;
   margin-left: 5px;
   border-radius: 5px;
-  cursor: pointer;
 }
 /* footer end */
