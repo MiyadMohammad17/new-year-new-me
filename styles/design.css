@@ -53,28 +53,26 @@ header {
 main {
   padding-top: 100px;
   width: 80%;
-  margin: 0 200px 1px;}
+  margin: 0 200px 1px;
+}
 /* learn starts */
 
-.learn-container{
+.learn-container {
   display: block;
   justify-content: center;
   margin-bottom: 100px;
-  
-
 }
-.learn-text{
+.learn-text {
   align-items: center;
   text-align: center;
   padding-bottom: 40px;
-
 }
-.learn-title{
+.learn-title {
   font-weight: 700;
   font-size: 45px;
   margin-bottom: 20px;
 }
-.learn-desc{
+.learn-desc {
   margin: 0 120px;
   text-align: center;
   font-weight: 500;
@@ -82,20 +80,19 @@ main {
   color: rgb(77, 71, 71);
 }
 
-.img-cont{
+.img-cont {
   display: flex;
   justify-content: center;
-  
 }
 
-.my-img{
+.my-img {
   width: 500px;
   height: 400px;
   margin-right: 10px;
   border-radius: 5px;
   border: 2px solid #127bd2;
 }
-.my-img1{
+.my-img1 {
   width: 270px;
   height: 400px;
   margin-right: 10px;
@@ -251,11 +248,10 @@ ul {
   flex-direction: left;
 }
 .subscribe {
-  width: 18%;
+  width: 25%;
   height: 320px;
 }
 .title {
-  text-transform: uppercase;
   padding-bottom: 30px;
   font-weight: 700;
   font-size: 30px;
@@ -263,14 +259,15 @@ ul {
 }
 .email-address {
   color: #ffffff;
-  height: 70px;
-  width: 290px;
+  height: 65px;
+  width: 400px;
   font-size: 20px;
-  text-align:center;
+  text-align: left;
   border-radius: 10px;
   background-color: transparent;
   border: 1px #ffffff solid;
   margin-bottom: 20px;
+  padding-left: 18px;
 }
 ::placeholder {
   color: #c0baba;
@@ -280,8 +277,9 @@ ul {
   color: #f7f6f4;
   font-size: 22px;
   font-weight: 400;
-  padding: 15px 20px;
+  padding: 20px 38px;
   border: 0;
+  margin-left: 5px;
   border-radius: 5px;
   cursor: pointer;
 }
